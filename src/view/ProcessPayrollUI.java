@@ -55,7 +55,7 @@ public class ProcessPayrollUI extends Application {
 
         form.add(new Label("Employee:"), 0, 0);
         form.add(nameDisplay, 1, 0);
-        form.add(new Label("Gross Pay ($):"), 0, 1);
+        form.add(new Label("Gross Pay (Birr):"), 0, 1);
         form.add(grossPayField, 1, 1);
         form.add(new Label("Tax Rate (e.g. 0.15):"), 0, 2);
         form.add(taxRateField, 1, 2);
